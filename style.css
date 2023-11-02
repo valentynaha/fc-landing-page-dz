@@ -37,7 +37,7 @@ p {
 
 .text {
   font-size: 1.2em;
-  padding: 5px;
+  padding: 10px;
 }
 
 .readMore {
@@ -64,4 +64,6 @@ p {
 .bottomText {
   display: inline-block;
   width: 30%;
+  height: 100%;
+  text-align: start;
 }
