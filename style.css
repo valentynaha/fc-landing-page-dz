@@ -37,7 +37,7 @@ p {
 
 .text {
   font-size: 1.2em;
-  padding: 10px;
+  padding: 2%;
 }
 
 .readMore {
@@ -49,6 +49,7 @@ p {
 }
 
 .wrapperBottom {
+  width: 100%;
   text-align: center;
 }
 
@@ -58,12 +59,12 @@ p {
 }
 
 .textBox {
-  width: 100vw;
+  width: 100%;
 }
 
 .bottomText {
   display: inline-block;
-  width: 30%;
-  height: 100%;
+  max-width: 33%;
   text-align: start;
+  box-sizing: border-box;
 }
