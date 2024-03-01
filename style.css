@@ -13,21 +13,16 @@ p {
 }
 
 .wrapperTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   width: 100vw;
   height: 100vh;
   background-image: url("./assets/beachshowcase.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.contentBox {
-  max-width: 700px;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding-top: 30vh;
 }
 
 .mainText {
@@ -49,7 +44,8 @@ p {
 }
 
 .wrapperBottom {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -59,12 +55,7 @@ p {
 }
 
 .textBox {
-  width: 100%;
-}
-
-.bottomText {
-  display: inline-block;
-  max-width: 33%;
+  display: flex;
+  flex-direction: row;
   text-align: start;
-  box-sizing: border-box;
 }
